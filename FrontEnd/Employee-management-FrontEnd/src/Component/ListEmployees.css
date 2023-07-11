@@ -1,0 +1,33 @@
+
+.list-head{
+    text-align: center;
+    color: #2f7ac0;
+    text-transform: uppercase;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  table {
+    max-width: 100%;
+    margin: 3rem;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #9be9ff;
+    /* opacity: 0.3; */
+  }
+  
+  th {
+    background-image:linear-gradient(19deg, #00c6ff 0%,#2486ff 100%);
+    color: #fff;
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 0.5em 1em;
+  }

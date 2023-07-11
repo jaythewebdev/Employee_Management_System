@@ -1,0 +1,102 @@
+.whole-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alert-extra{
+    margin-top: 10rem;
+    position: relative;
+    top: 500px;
+}
+.alert-confirm {		
+	color: #636363;
+	/* width: 325px; */
+	font-size: 14px;
+    color: #000;
+}
+.alert-container {
+	padding: 20px;
+	border-radius: 5px;
+	border: none;
+}
+.alert-card{
+    background-color: white;
+    width: 15rem;
+    height: 20rem;
+    padding:0 5rem 2rem 5rem;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+.alert-card-header {
+	border-bottom: none;   
+	position: relative;
+    margin-top: 5rem;
+}
+/* .alert-confirm h2 {
+	text-align: center;
+	font-size: 26px;
+	margin: 30px 0 -15px;
+    margin-top: 40rem;
+} */
+
+.alert-btn {
+	min-height: 40px;
+	border-radius: 3px; 
+    color: #fff;
+	border-radius: 4px;
+	background: #82ce34;
+	text-decoration: none;
+	transition: all 0.4s;
+	line-height: normal;
+	border: none;
+    width: 100%;
+    font-weight: 700;
+}
+.alert-h{
+    top: 10%;
+    margin-top: 10rem;
+    font-size: 1.4rem;
+}
+.alert-divs{
+    margin-top: 3rem;
+}
+.alert-divs,.alert-h{
+    position: relative;
+    top:80px;
+    text-align: center;
+}
+
+.alert-card-footer {
+	border: none;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 13px;
+}	
+.alert-icon-box {
+	color: #fff;		
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: -70px;
+	width: 95px;
+	height: 95px;
+	border-radius: 50%;
+	z-index: 9;
+	background: #82ce34;
+	padding: 15px;
+	text-align: center;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+.alert-icon-box i {
+	font-size: 58px;
+	position: relative;
+	top: 3px;
+}
+
+.alert-btn:hover{
+	background: #6fb32b;
+	outline: none;
+}

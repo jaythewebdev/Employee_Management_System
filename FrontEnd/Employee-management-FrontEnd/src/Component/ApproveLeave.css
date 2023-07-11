@@ -1,0 +1,53 @@
+.approve-head{
+    text-align: center;
+    text-transform: uppercase;
+    color: #2f7ac0;
+}
+  #table {
+    width: 80%; /* Adjust the width as per your preference */
+    margin: 20px auto; /* Add margin to create space around the table */
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  #table th,
+  #table td {
+    padding: 12px;
+    text-align: center;
+  }
+  
+  #table th {
+    background-color: #16a5e7;
+    font-weight: bold;
+  }
+  
+  #table td {
+    border-bottom: 1px solid #ddd;
+  }
+ .green
+ {
+  color: rgb(7, 4, 4);
+  background-color: rgb(38, 217, 35);
+ }
+ .red
+ {
+  color: rgb(7, 4, 4);
+  background-color: rgba(224, 74, 74, 0.564);
+ }
+
+ .approve-btn-container{
+    text-align: center;
+}
+.approve-btn{
+    background-color: #2f7ac0;
+    /* background: rgba(253, 253, 253, 0); */
+    outline: none;
+    border: 1px solid rgba(255, 0, 0, 0);
+    /* border-radius: 0.5rem; */
+    padding: 10px;
+    margin: 25px auto;
+    width: 80%;
+    display: block;
+    color: #fff;
+    font-size: 1.1em;
+}
